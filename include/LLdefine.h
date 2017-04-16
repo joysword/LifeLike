@@ -142,7 +142,7 @@ typedef struct MEMORYDATA{
 // simple linear inperpolation with start, mid, end
 typedef struct fExpression
 {
-	int		poseIndex;		// pose shpae index
+	int		poseIndex;		// pose shape index
 	float	elapeseTime;	// elapsed time after stating of expression
 	float	startTime;		// start time based on wall clock
 	float	endTime;		// duration of expression
@@ -196,7 +196,7 @@ enum tEVENT
 	EVT_ATTRACT		= 7,	// set attraction point: x, y
 	EVT_CAPTION		= 8,	// set caption text
 	EVT_MOVE		= 9,	// move avatar (mainly for sapi bookmark embeded) : x, y, z, orientation
-	EVT_ATTRACTION	= 10,	// give attention to attractio point	: x,y,z,exptime
+	EVT_ATTRACTION	= 10,	// give attention to attraction point	: x,y,z,exptime
 	EVT_VOICE		= 11,	// change voice
 	EVT_GUI_VISIBILITY	= 12,	// change gui window visibility
 	EVT_GUI_MATERIAL	= 13,	// change gui window material

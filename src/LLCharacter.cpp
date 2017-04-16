@@ -1016,7 +1016,7 @@ void LLCharacter::addFacialExpression(int iExpression, float duration, float max
 	// double check this shape is available
 	if (m_iShape2PoseIndex[iExpression] < 0)
 	{
-		LLScreenLog::getSingleton().addText("addFacialExpression faile: " + Ogre::StringConverter::toString(iExpression) + " shape not found ");
+		LLScreenLog::getSingleton().addText("addFacialExpression failed: " + Ogre::StringConverter::toString(iExpression) + " shape not found ");
 		
 		return;
 	}
